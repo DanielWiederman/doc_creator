@@ -4,6 +4,7 @@ import checker from 'vite-plugin-checker'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: "/doc_creator",
   plugins: [
     react(),
     checker({
